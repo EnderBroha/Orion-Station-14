@@ -1,0 +1,7 @@
+- type: trait
+  id: Prosopagnosia
+  name: trait-prosopagnosia-name
+  description: trait-prosopagnosia-desc
+  category: Disabilities
+  components:
+  - type: DroneVision
