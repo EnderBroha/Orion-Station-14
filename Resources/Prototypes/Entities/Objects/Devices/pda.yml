@@ -290,6 +290,8 @@
         type: InstrumentBoundUserInterface
       enum.HealthAnalyzerUiKey.Key:
         type: HealthAnalyzerBoundUserInterface
+      enum.AnomalyScannerUiKey.Key:
+        type: AnomalyScannerBoundUserInterface
   - type: Tag
     tags:
     - DoorBumpOpener
@@ -530,6 +532,7 @@
   # Orion-End
   - type: Pda
     id: ResearchAssistantIDCard
+  - type: AnomalyScanner
   - type: PdaBorderColor
     borderColor: "#E0FFFF" # Orion-Edit
     accentVColor: "#9932CC" # Orion-Edit
@@ -1427,6 +1430,7 @@
   # Orion-End
   - type: Pda
     id: RDIDCard
+  - type: AnomalyScanner
   - type: PdaBorderColor
     borderColor: "#E0FFFF" # Orion-Edit
     accentHColor: "#9932CC" # Orion-Edit
@@ -1462,6 +1466,7 @@
   # Orion-End
   - type: Pda
     id: ResearchIDCard
+  - type: AnomalyScanner
   - type: PdaBorderColor
     borderColor: "#E0FFFF" # Orion-Edit
     accentVColor: "#9932CC" # Orion-Edit
