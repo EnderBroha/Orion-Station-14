@@ -1,0 +1,540 @@
+# SPDX-FileCopyrightText: 2026 Space Station 14 Contributors
+#
+# SPDX-License-Identifier: AGPL-3.0-or-later
+
+# Siberia underwear tops
+
+- type: entity
+  parent: ClothingUndershirtBase
+  id: ClothingUnderTopWhiteM
+  name: White Male Tank Top
+  description: A white male tank top.
+  components:
+  - type: Sprite
+    sprite: _Siberia/Clothing/Under/Top/whitemale.rsi
+  - type: Clothing
+    sprite: _Siberia/Clothing/Under/Top/whitemale.rsi
+  - type: StaticPrice
+    price: 40
+- type: entity
+  parent: ClothingUndershirtBase
+  id: ClothingUnderTopWhiteF
+  name: White Female Top
+  description: A white female top.
+  components:
+  - type: Sprite
+    sprite: _Siberia/Clothing/Under/Top/whitefemale.rsi
+  - type: Clothing
+    sprite: _Siberia/Clothing/Under/Top/whitefemale.rsi
+  - type: StaticPrice
+    price: 40
+- type: entity
+  parent: ClothingUndershirtBase
+  id: ClothingUnderTopShirtIan
+  name: Ian's Shirt
+  description: Love me, woof!
+  components:
+  - type: Sprite
+    sprite: _Siberia/Clothing/Under/Top/ian.rsi
+  - type: Clothing
+    sprite: _Siberia/Clothing/Under/Top/ian.rsi
+  - type: StaticPrice
+    price: 60
+
+- type: entity
+  parent: ClothingUndershirtBase
+  id: ClothingUnderTopUk
+  name: UK Female Top
+  description: DON'T GET STROPPY!!
+  components:
+  - type: Sprite
+    sprite: _Siberia/Clothing/Under/Top/uk.rsi
+  - type: Clothing
+    sprite: _Siberia/Clothing/Under/Top/uk.rsi
+  - type: StaticPrice
+    price: 60
+
+- type: entity
+  parent: ClothingUndershirtBase
+  id: ClothingUnderTopNeko
+  name: Neko Top
+  description: NYA~~~!
+  components:
+  - type: Sprite
+    sprite: _Siberia/Clothing/Under/Top/nekoblack.rsi
+  - type: Clothing
+    sprite: _Siberia/Clothing/Under/Top/nekoblack.rsi
+  - type: StaticPrice
+    price: 60
+
+- type: entity
+  parent: ClothingUndershirtBase
+  id: ClothingUnderTopWhiteTShirt
+  name: White T-Shirt
+  description: A plain white t-shirt.
+  components:
+  - type: Sprite
+    sprite: _Siberia/Clothing/Under/Top/whitetshirt.rsi
+  - type: Clothing
+    sprite: _Siberia/Clothing/Under/Top/whitetshirt.rsi
+  - type: StaticPrice
+    price: 40
+- type: entity
+  parent: ClothingUndershirtBase
+  id: ClothingUnderTopSanta
+  name: Christmas Bra
+  description: A festive Christmas bra.
+  components:
+  - type: Sprite
+    sprite: _Siberia/Clothing/Under/Top/santatop.rsi
+  - type: Clothing
+    sprite: _Siberia/Clothing/Under/Top/santatop.rsi
+  - type: StaticPrice
+    price: 60
+
+- type: entity
+  parent: ClothingUndershirtBase
+  id: ClothingUnderTopTigerFemale
+  name: Tiger Bra
+  description: A tiger-print bra.
+  components:
+  - type: Sprite
+    sprite: _Siberia/Clothing/Under/Top/tigertop.rsi
+  - type: Clothing
+    sprite: _Siberia/Clothing/Under/Top/tigertop.rsi
+  - type: StaticPrice
+    price: 60
+
+- type: entity
+  parent: ClothingUndershirtBase
+  id: ClothingUnderTopDisco
+  name: Disco Bra
+  description: A disco-style bra.
+  components:
+  - type: Sprite
+    sprite: _Siberia/Clothing/Under/Top/discotop.rsi
+  - type: Clothing
+    sprite: _Siberia/Clothing/Under/Top/discotop.rsi
+  - type: StaticPrice
+    price: 60
+
+- type: entity
+  parent: ClothingUndershirtBase
+  id: ClothingUnderTopPink
+  name: Pink Bra
+  description: A pink bra.
+  components:
+  - type: Sprite
+    sprite: _Siberia/Clothing/Under/Top/pinkTOP.rsi
+  - type: Clothing
+    sprite: _Siberia/Clothing/Under/Top/pinkTOP.rsi
+  - type: StaticPrice
+    price: 40
+- type: entity
+  parent: ClothingUndershirtBase
+  id: ClothingUnderTopSyndicate
+  name: Tactical Bra
+  description: A tactical-style bra.
+  components:
+  - type: Sprite
+    sprite: _Siberia/Clothing/Under/Top/lacetop.rsi
+  - type: Clothing
+    sprite: _Siberia/Clothing/Under/Top/lacetop.rsi
+  - type: StaticPrice
+    price: 60
+
+- type: entity
+  parent: ClothingUndershirtBase
+  id: ClothingUnderTopTactic
+  name: Dark Bra
+  description: A dark-colored bra.
+  components:
+  - type: Sprite
+    sprite: _Siberia/Clothing/Under/Top/tactictop.rsi
+  - type: Clothing
+    sprite: _Siberia/Clothing/Under/Top/tactictop.rsi
+  - type: StaticPrice
+    price: 60
+
+- type: entity
+  parent: ClothingUndershirtBase
+  id: ClothingUnderTopGalaxy
+  name: Galaxy Top
+  description: A galaxy-themed top.
+  components:
+  - type: Sprite
+    sprite: _Siberia/Clothing/Under/Top/galaxy.rsi
+  - type: Clothing
+    sprite: _Siberia/Clothing/Under/Top/galaxy.rsi
+  - type: StaticPrice
+    price: 60
+
+- type: entity
+  parent: ClothingUndershirtBase
+  id: ClothingBlackPiquantTop
+  name: Black Piquant Top
+  description: Frivolous lingerie for those who wish to please.
+  components:
+  - type: Sprite
+    sprite: _Siberia/Clothing/Under/Top/piquanttop.rsi
+    layers:
+    - state: icon
+    - state: icon-color
+      color: "#28273A"
+  - type: Item
+    inhandVisuals:
+      left:
+      - state: inhand-left
+      - state: color-inhand-left
+        color: "#28273A"
+      right:
+      - state: inhand-right
+      - state: color-inhand-right
+        color: "#28273A"
+  - type: Clothing
+    sprite: _Siberia/Clothing/Under/Top/piquanttop.rsi
+    clothingVisuals:
+      undershirt:
+      - state: color-equipped-UNDERSHIRT
+        color: "#28273A"
+      - state: equipped-UNDERSHIRT
+  - type: StaticPrice
+    price: 100
+
+- type: entity
+  parent: ClothingUndershirtBase
+  id: ClothingRedPiquantTop
+  name: Red Piquant Top
+  description: Frivolous lingerie for those who wish to please.
+  components:
+  - type: Sprite
+    sprite: _Siberia/Clothing/Under/Top/piquanttop.rsi
+    layers:
+    - state: icon
+    - state: icon-color
+      color: "#910000"
+  - type: Item
+    inhandVisuals:
+      left:
+      - state: inhand-left
+      - state: color-inhand-left
+        color: "#910000"
+      right:
+      - state: inhand-right
+      - state: color-inhand-right
+        color: "#910000"
+  - type: Clothing
+    sprite: _Siberia/Clothing/Under/Top/piquanttop.rsi
+    clothingVisuals:
+      undershirt:
+      - state: color-equipped-UNDERSHIRT
+        color: "#910000"
+      - state: equipped-UNDERSHIRT
+  - type: StaticPrice
+    price: 100
+
+- type: entity
+  parent: ClothingUndershirtBase
+  id: ClothingBluePiquantTop
+  name: Blue Piquant Top
+  description: Frivolous lingerie for those who wish to please.
+  components:
+  - type: Sprite
+    sprite: _Siberia/Clothing/Under/Top/piquanttop.rsi
+    layers:
+    - state: icon
+    - state: icon-color
+      color: "#416DAF"
+  - type: Item
+    inhandVisuals:
+      left:
+      - state: inhand-left
+      - state: color-inhand-left
+        color: "#416DAF"
+      right:
+      - state: inhand-right
+      - state: color-inhand-right
+        color: "#416DAF"
+  - type: Clothing
+    sprite: _Siberia/Clothing/Under/Top/piquanttop.rsi
+    clothingVisuals:
+      undershirt:
+      - state: color-equipped-UNDERSHIRT
+        color: "#416DAF"
+      - state: equipped-UNDERSHIRT
+  - type: StaticPrice
+    price: 100
+
+- type: entity
+  parent: ClothingUndershirtBase
+  id: ClothingPurplePiquantTop
+  name: Purple Piquant Top
+  description: Frivolous lingerie for those who wish to please.
+  components:
+  - type: Sprite
+    sprite: _Siberia/Clothing/Under/Top/piquanttop.rsi
+    layers:
+    - state: icon
+    - state: icon-color
+      color: "#341255"
+  - type: Item
+    inhandVisuals:
+      left:
+      - state: inhand-left
+      - state: color-inhand-left
+        color: "#341255"
+      right:
+      - state: inhand-right
+      - state: color-inhand-right
+        color: "#341255"
+  - type: Clothing
+    sprite: _Siberia/Clothing/Under/Top/piquanttop.rsi
+    clothingVisuals:
+      undershirt:
+      - state: color-equipped-UNDERSHIRT
+        color: "#341255"
+      - state: equipped-UNDERSHIRT
+  - type: StaticPrice
+    price: 100
+
+- type: entity
+  parent: ClothingUndershirtBase
+  id: ClothingOrangePiquantTop
+  name: Orange Piquant Top
+  description: Frivolous lingerie for those who wish to please.
+  components:
+  - type: Sprite
+    sprite: _Siberia/Clothing/Under/Top/piquanttop.rsi
+    layers:
+    - state: icon
+    - state: icon-color
+      color: "#F5AA5B"
+  - type: Item
+    inhandVisuals:
+      left:
+      - state: inhand-left
+      - state: color-inhand-left
+        color: "#F5AA5B"
+      right:
+      - state: inhand-right
+      - state: color-inhand-right
+        color: "#F5AA5B"
+  - type: Clothing
+    sprite: _Siberia/Clothing/Under/Top/piquanttop.rsi
+    clothingVisuals:
+      undershirt:
+      - state: color-equipped-UNDERSHIRT
+        color: "#F5AA5B"
+      - state: equipped-UNDERSHIRT
+  - type: StaticPrice
+    price: 100
+
+- type: entity
+  parent: ClothingUndershirtBase
+  id: ClothingBlackElegantSwimsuitTop
+  name: Black Elegant Swimsuit Top
+  description: Show everyone the beauty of your body.
+  components:
+  - type: Sprite
+    sprite: _Siberia/Clothing/Under/Top/elegantswimsuittop.rsi
+    layers:
+    - state: icon
+      color: "#212030"
+  - type: Item
+    inhandVisuals:
+      left:
+      - state: inhand-left
+        color: "#212030"
+      right:
+      - state: inhand-right
+        color: "#212030"
+  - type: Clothing
+    sprite: _Siberia/Clothing/Under/Top/elegantswimsuittop.rsi
+    clothingVisuals:
+      undershirt:
+      - state: color-equipped-UNDERSHIRT
+        color: "#212030"
+  - type: StaticPrice
+    price: 80
+
+- type: entity
+  parent: ClothingUndershirtBase
+  id: ClothingRedElegantSwimsuitTop
+  name: Red Elegant Swimsuit Top
+  description: Show everyone the beauty of your body.
+  components:
+  - type: Sprite
+    sprite: _Siberia/Clothing/Under/Top/elegantswimsuittop.rsi
+    layers:
+    - state: icon
+      color: "#680000"
+  - type: Item
+    inhandVisuals:
+      left:
+      - state: inhand-left
+        color: "#680000"
+      right:
+      - state: inhand-right
+        color: "#680000"
+  - type: Clothing
+    sprite: _Siberia/Clothing/Under/Top/elegantswimsuittop.rsi
+    clothingVisuals:
+      undershirt:
+      - state: color-equipped-UNDERSHIRT
+        color: "#680000"
+  - type: StaticPrice
+    price: 80
+
+- type: entity
+  parent: ClothingUndershirtBase
+  id: ClothingGreenElegantSwimsuitTop
+  name: Green Elegant Swimsuit Top
+  description: Show everyone the beauty of your body.
+  components:
+  - type: Sprite
+    sprite: _Siberia/Clothing/Under/Top/elegantswimsuittop.rsi
+    layers:
+    - state: icon
+      color: "#1B5437"
+  - type: Item
+    inhandVisuals:
+      left:
+      - state: inhand-left
+        color: "#1B5437"
+      right:
+      - state: inhand-right
+        color: "#1B5437"
+  - type: Clothing
+    sprite: _Siberia/Clothing/Under/Top/elegantswimsuittop.rsi
+    clothingVisuals:
+      undershirt:
+      - state: color-equipped-UNDERSHIRT
+        color: "#1B5437"
+  - type: StaticPrice
+    price: 80
+
+- type: entity
+  parent: ClothingUndershirtBase
+  id: ClothingBlueElegantSwimsuitTop
+  name: Blue Elegant Swimsuit Top
+  description: Show everyone the beauty of your body.
+  components:
+  - type: Sprite
+    sprite: _Siberia/Clothing/Under/Top/elegantswimsuittop.rsi
+    layers:
+    - state: icon
+      color: "#416DAF"
+  - type: Item
+    inhandVisuals:
+      left:
+      - state: inhand-left
+        color: "#416DAF"
+      right:
+      - state: inhand-right
+        color: "#416DAF"
+  - type: Clothing
+    sprite: _Siberia/Clothing/Under/Top/elegantswimsuittop.rsi
+    clothingVisuals:
+      undershirt:
+      - state: color-equipped-UNDERSHIRT
+        color: "#416DAF"
+  - type: StaticPrice
+    price: 80
+
+- type: entity
+  parent: ClothingUndershirtBase
+  id: ClothingPurpleElegantSwimsuitTop
+  name: Purple Elegant Swimsuit Top
+  description: Show everyone the beauty of your body.
+  components:
+  - type: Sprite
+    sprite: _Siberia/Clothing/Under/Top/elegantswimsuittop.rsi
+    layers:
+    - state: icon
+      color: "#341255"
+  - type: Item
+    inhandVisuals:
+      left:
+      - state: inhand-left
+        color: "#341255"
+      right:
+      - state: inhand-right
+        color: "#341255"
+  - type: Clothing
+    sprite: _Siberia/Clothing/Under/Top/elegantswimsuittop.rsi
+    clothingVisuals:
+      undershirt:
+      - state: color-equipped-UNDERSHIRT
+        color: "#341255"
+  - type: StaticPrice
+    price: 80
+
+- type: entity
+  parent: ClothingUndershirtBase
+  id: ClothingOrangeElegantSwimsuitTop
+  name: Orange Elegant Swimsuit Top
+  description: Show everyone the beauty of your body.
+  components:
+  - type: Sprite
+    sprite: _Siberia/Clothing/Under/Top/elegantswimsuittop.rsi
+    layers:
+    - state: icon
+      color: "#F5AA5B"
+  - type: Item
+    inhandVisuals:
+      left:
+      - state: inhand-left
+        color: "#F5AA5B"
+      right:
+      - state: inhand-right
+        color: "#F5AA5B"
+  - type: Clothing
+    sprite: _Siberia/Clothing/Under/Top/elegantswimsuittop.rsi
+    clothingVisuals:
+      undershirt:
+      - state: color-equipped-UNDERSHIRT
+        color: "#F5AA5B"
+  - type: StaticPrice
+    price: 80
+
+- type: entity
+  parent: ClothingUndershirtBase
+  id: ClothingUnderTopAzure
+  name: Azure Swimsuit Top
+  description: The blue of the sky pairs well with the sea.
+  components:
+  - type: Sprite
+    sprite: _Siberia/Clothing/Under/Top/azuretop.rsi
+    layers:
+    - state: icon
+  - type: Item
+    inhandVisuals:
+      left:
+      - state: inhand-left
+      right:
+      - state: inhand-right
+  - type: Clothing
+    sprite: _Siberia/Clothing/Under/Top/azuretop.rsi
+  - type: StaticPrice
+    price: 80
+
+- type: entity
+  parent: ClothingUndershirtBase
+  id: ClothingUnderTopKitsuneArms
+  name: Kitsune Arms Elite Swimsuit Top
+  description: Limited lingerie from Kitsune Arms for its best clients.
+  components:
+  - type: Sprite
+    sprite: _Siberia/Clothing/Under/Top/kitsunearmstop.rsi
+    layers:
+    - state: icon
+  - type: Item
+    inhandVisuals:
+      left:
+      - state: inhand-left
+      right:
+      - state: inhand-right
+  - type: Clothing
+    sprite: _Siberia/Clothing/Under/Top/kitsunearmstop.rsi
+  - type: StaticPrice
+    price: 150

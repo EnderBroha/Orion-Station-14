@@ -1,0 +1,340 @@
+# SPDX-FileCopyrightText: 2026 Space Station 14 Contributors
+#
+# SPDX-License-Identifier: AGPL-3.0-or-later
+
+# Siberia socks, stockings, and tights
+
+- type: entity
+  parent: ClothingSocksBase
+  id: ClothingUnderSocksBlack
+  name: Black Socks
+  description: Socks.
+  components:
+  - type: Sprite
+    sprite: _Siberia/Clothing/Under/Socks/black.rsi
+  - type: Clothing
+    sprite: _Siberia/Clothing/Under/Socks/black.rsi
+  - type: StaticPrice
+    price: 40
+- type: entity
+  parent: ClothingSocksBase
+  id: ClothingUnderSocksBlue
+  name: Blue Socks
+  description: Socks.
+  components:
+  - type: Sprite
+    sprite: _Siberia/Clothing/Under/Socks/blue.rsi
+  - type: Clothing
+    sprite: _Siberia/Clothing/Under/Socks/blue.rsi
+  - type: StaticPrice
+    price: 40
+- type: entity
+  parent: ClothingSocksBase
+  id: ClothingUnderSocksBrown
+  name: Brown Socks
+  description: Socks.
+  components:
+  - type: Sprite
+    sprite: _Siberia/Clothing/Under/Socks/brown.rsi
+  - type: Clothing
+    sprite: _Siberia/Clothing/Under/Socks/brown.rsi
+  - type: StaticPrice
+    price: 40
+- type: entity
+  parent: ClothingSocksBase
+  id: ClothingUnderSocksGreen
+  name: Green Socks
+  description: Socks.
+  components:
+  - type: Sprite
+    sprite: _Siberia/Clothing/Under/Socks/green.rsi
+  - type: Clothing
+    sprite: _Siberia/Clothing/Under/Socks/green.rsi
+  - type: StaticPrice
+    price: 40
+- type: entity
+  parent: ClothingSocksBase
+  id: ClothingUnderSocksMime
+  name: Mime Socks
+  description: Socks.
+  components:
+  - type: Sprite
+    sprite: _Siberia/Clothing/Under/Socks/mime.rsi
+  - type: Clothing
+    sprite: _Siberia/Clothing/Under/Socks/mime.rsi
+  - type: StaticPrice
+    price: 40
+- type: entity
+  parent: ClothingSocksBase
+  id: ClothingUnderSocksPink
+  name: Pink Socks
+  description: A small, pink evil.
+  components:
+  - type: Sprite
+    sprite: _Siberia/Clothing/Under/Socks/pink.rsi
+  - type: Clothing
+    sprite: _Siberia/Clothing/Under/Socks/pink.rsi
+  - type: StaticPrice
+    price: 40
+- type: entity
+  parent: ClothingSocksBase
+  id: ClothingUnderSocksPurple
+  name: Purple Socks
+  description: Socks.
+  components:
+  - type: Sprite
+    sprite: _Siberia/Clothing/Under/Socks/purple.rsi
+  - type: Clothing
+    sprite: _Siberia/Clothing/Under/Socks/purple.rsi
+  - type: StaticPrice
+    price: 40
+- type: entity
+  parent: ClothingSocksBase
+  id: ClothingUnderSocksRed
+  name: Red Socks
+  description: Socks.
+  components:
+  - type: Sprite
+    sprite: _Siberia/Clothing/Under/Socks/red.rsi
+  - type: Clothing
+    sprite: _Siberia/Clothing/Under/Socks/red.rsi
+  - type: StaticPrice
+    price: 40
+- type: entity
+  parent: ClothingSocksBase
+  id: ClothingUnderSocksWhite
+  name: White Socks
+  description: Socks.
+  components:
+  - type: Sprite
+    sprite: _Siberia/Clothing/Under/Socks/white.rsi
+  - type: Clothing
+    sprite: _Siberia/Clothing/Under/Socks/white.rsi
+
+# Stockings
+  - type: StaticPrice
+    price: 40
+- type: entity
+  parent: ClothingSocksBase
+  id: ClothingUnderStockingsBlue
+  name: Blue Stockings
+  description: Stockings.
+  components:
+  - type: Sprite
+    sprite: _Siberia/Clothing/Under/Socks/Stockings/blue.rsi
+  - type: Clothing
+    sprite: _Siberia/Clothing/Under/Socks/Stockings/blue.rsi
+  - type: StaticPrice
+    price: 50
+
+- type: entity
+  parent: ClothingSocksBase
+  id: ClothingUnderStockingsBrown
+  name: Brown Stockings
+  description: Stockings.
+  components:
+  - type: Sprite
+    sprite: _Siberia/Clothing/Under/Socks/Stockings/brown.rsi
+  - type: Clothing
+    sprite: _Siberia/Clothing/Under/Socks/Stockings/brown.rsi
+  - type: StaticPrice
+    price: 50
+
+- type: entity
+  parent: ClothingSocksBase
+  id: ClothingUnderStockingsFlesh
+  name: Flesh Stockings
+  description: Stockings.
+  components:
+  - type: Sprite
+    sprite: _Siberia/Clothing/Under/Socks/Stockings/flesh.rsi
+  - type: Clothing
+    sprite: _Siberia/Clothing/Under/Socks/Stockings/flesh.rsi
+  - type: StaticPrice
+    price: 50
+
+- type: entity
+  parent: ClothingSocksBase
+  id: ClothingUnderStockingsGreen
+  name: Green Stockings
+  description: Stockings.
+  components:
+  - type: Sprite
+    sprite: _Siberia/Clothing/Under/Socks/Stockings/green.rsi
+  - type: Clothing
+    sprite: _Siberia/Clothing/Under/Socks/Stockings/green.rsi
+  - type: StaticPrice
+    price: 50
+
+- type: entity
+  parent: ClothingSocksBase
+  id: ClothingUnderStockingsMesh
+  name: Mesh Stockings
+  description: Stockings.
+  components:
+  - type: Sprite
+    sprite: _Siberia/Clothing/Under/Socks/Stockings/mesh.rsi
+  - type: Clothing
+    sprite: _Siberia/Clothing/Under/Socks/Stockings/mesh.rsi
+  - type: StaticPrice
+    price: 60
+
+- type: entity
+  parent: ClothingSocksBase
+  id: ClothingUnderStockingsRed
+  name: Red Stockings
+  description: Stockings.
+  components:
+  - type: Sprite
+    sprite: _Siberia/Clothing/Under/Socks/Stockings/red.rsi
+  - type: Clothing
+    sprite: _Siberia/Clothing/Under/Socks/Stockings/red.rsi
+  - type: StaticPrice
+    price: 50
+
+- type: entity
+  parent: ClothingSocksBase
+  id: ClothingUnderStockingsWhite
+  name: White Stockings
+  description: Stockings.
+  components:
+  - type: Sprite
+    sprite: _Siberia/Clothing/Under/Socks/Stockings/white.rsi
+  - type: Clothing
+    sprite: _Siberia/Clothing/Under/Socks/Stockings/white.rsi
+  - type: StaticPrice
+    price: 50
+
+- type: entity
+  parent: ClothingSocksBase
+  id: ClothingUnderStockingsWhiteBlack
+  name: White-Black Stockings
+  description: Stockings.
+  components:
+  - type: Sprite
+    sprite: _Siberia/Clothing/Under/Socks/Stockings/white-black.rsi
+  - type: Clothing
+    sprite: _Siberia/Clothing/Under/Socks/Stockings/white-black.rsi
+  - type: StaticPrice
+    price: 50
+
+# Tights
+
+- type: entity
+  parent: ClothingSocksBase
+  id: ClothingUnderTightsBlack
+  name: Black Tights
+  description: Tights.
+  components:
+  - type: Sprite
+    sprite: _Siberia/Clothing/Under/Socks/Tights/black.rsi
+  - type: Clothing
+    sprite: _Siberia/Clothing/Under/Socks/Tights/black.rsi
+  - type: StaticPrice
+    price: 50
+
+- type: entity
+  parent: ClothingSocksBase
+  id: ClothingUnderTightsBlue
+  name: Blue Tights
+  description: Tights.
+  components:
+  - type: Sprite
+    sprite: _Siberia/Clothing/Under/Socks/Tights/blue.rsi
+  - type: Clothing
+    sprite: _Siberia/Clothing/Under/Socks/Tights/blue.rsi
+  - type: StaticPrice
+    price: 50
+
+- type: entity
+  parent: ClothingSocksBase
+  id: ClothingUnderTightsBrown
+  name: Brown Tights
+  description: Tights.
+  components:
+  - type: Sprite
+    sprite: _Siberia/Clothing/Under/Socks/Tights/brown.rsi
+  - type: Clothing
+    sprite: _Siberia/Clothing/Under/Socks/Tights/brown.rsi
+  - type: StaticPrice
+    price: 50
+
+- type: entity
+  parent: ClothingSocksBase
+  id: ClothingUnderTightsFlesh
+  name: Flesh Tights
+  description: Tights.
+  components:
+  - type: Sprite
+    sprite: _Siberia/Clothing/Under/Socks/Tights/flesh.rsi
+  - type: Clothing
+    sprite: _Siberia/Clothing/Under/Socks/Tights/flesh.rsi
+  - type: StaticPrice
+    price: 50
+
+- type: entity
+  parent: ClothingSocksBase
+  id: ClothingUnderTightsGreen
+  name: Green Tights
+  description: Tights.
+  components:
+  - type: Sprite
+    sprite: _Siberia/Clothing/Under/Socks/Tights/green.rsi
+  - type: Clothing
+    sprite: _Siberia/Clothing/Under/Socks/Tights/green.rsi
+  - type: StaticPrice
+    price: 50
+
+- type: entity
+  parent: ClothingSocksBase
+  id: ClothingUnderTightsRed
+  name: Red Tights
+  description: Tights.
+  components:
+  - type: Sprite
+    sprite: _Siberia/Clothing/Under/Socks/Tights/red.rsi
+  - type: Clothing
+    sprite: _Siberia/Clothing/Under/Socks/Tights/red.rsi
+  - type: StaticPrice
+    price: 50
+
+- type: entity
+  parent: ClothingSocksBase
+  id: ClothingUnderTightsWhite
+  name: White Tights
+  description: Tights.
+  components:
+  - type: Sprite
+    sprite: _Siberia/Clothing/Under/Socks/Tights/white.rsi
+  - type: Clothing
+    sprite: _Siberia/Clothing/Under/Socks/Tights/white.rsi
+  - type: StaticPrice
+    price: 50
+
+# Special socks
+
+- type: entity
+  parent: ClothingSocksBase
+  id: ClothingUnderSocksNeko
+  name: Neko Socks
+  description: Neko-themed socks.
+  components:
+  - type: Sprite
+    sprite: _Siberia/Clothing/Under/Socks/neko.rsi
+  - type: Clothing
+    sprite: _Siberia/Clothing/Under/Socks/neko.rsi
+  - type: StaticPrice
+    price: 60
+
+- type: entity
+  parent: ClothingSocksBase
+  id: ClothingUnderSocksMegu
+  name: Stocking and Bandage
+  description: A strange combination of a stocking and a leg bandage, who even needs this?
+  components:
+  - type: Sprite
+    sprite: _Siberia/Clothing/Under/Socks/meguminsocks.rsi
+  - type: Clothing
+    sprite: _Siberia/Clothing/Under/Socks/meguminsocks.rsi
+  - type: StaticPrice
+    price: 60
