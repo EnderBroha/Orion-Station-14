@@ -171,3 +171,5 @@ accent-bogan-words-78 = уйди
 accent-bogan-words-replace-78 = съеби
 accent-bogan-words-79 = быстрее
 accent-bogan-words-replace-79 = шевели булками
+accent-bogan-words-80 = капитан
+accent-bogan-words-replace-80 = начальник
