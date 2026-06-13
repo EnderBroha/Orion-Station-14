@@ -1,0 +1,14 @@
+# SPDX-FileCopyrightText: 2026 Space Station 14 Contributors
+#
+# SPDX-License-Identifier: AGPL-3.0-or-later
+
+- type: entity
+  parent: ClothingNeckBase
+  id: ClothingNeckBread
+  name: хлеб
+  description: Флексит на ветру.
+  components:
+  - type: Sprite
+    sprite: _Siberia/Clothing/Neck/Misc/bread.rsi
+  - type: Clothing
+    sprite: _Siberia/Clothing/Neck/Misc/bread.rsi
