@@ -44,10 +44,9 @@
       time: 90000 # 25 hours
     - !type:AgeRequirement
       requiredAge: 21
-    - !type:SpeciesRequirement # Goob - None Felinid
-      inverted: true
+    - !type:SpeciesRequirement # Siberia - Human only
       species:
-      - Felinid
+      - Human
 #  guides: # Orion-Edit: Removed because dont have this SOP
 #  - BlueshieldOfficerSOP
 #  - Command

@@ -15,6 +15,12 @@
   - !type:DepartmentTimeRequirement
     department: Security
     time: 18000 # 5 hrs
+  - !type:SpeciesRequirement # Siberia - No Yowie/Resomi/Diona in Security
+    inverted: true
+    species:
+    - Yowie
+    - Resomi
+    - Diona
   startingGear: BrigmedicGear
   icon: "JobIconBrigmedic"
   supervisors: job-supervisors-hos

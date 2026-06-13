@@ -92,6 +92,12 @@
     - !type:DepartmentTimeRequirement
       department: Security
       time: 18000 #5 hrs # Siberia-Roletime
+    - !type:SpeciesRequirement # Siberia - No Yowie/Resomi/Diona in Security
+      inverted: true
+      species:
+      - Yowie
+      - Resomi
+      - Diona
   startingGear: SecurityOfficerGear
   icon: "JobIconSecurityOfficer"
   supervisors: job-supervisors-hos

@@ -155,10 +155,13 @@
     - !type:DepartmentTimeRequirement
       department: Civilian
       time: 90000 #25 hrs # Siberia-Roletime
-    - !type:SpeciesRequirement # Goob - None Felinid
+    - !type:SpeciesRequirement # Goob - None Felinid / Siberia - No Yowie/Resomi/Diona in Command
       inverted: true
       species:
       - Felinid
+      - Yowie
+      - Resomi
+      - Diona
 #  guides: # goobstation | Orion-Edit: Removed because dont have this SOP
 #  - Command
 #  - Succession
