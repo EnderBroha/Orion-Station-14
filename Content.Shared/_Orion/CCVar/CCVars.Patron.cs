@@ -12,5 +12,5 @@ public sealed partial class CCVars
     ///     Enable or disable Patron functions.
     /// </summary>
     public static readonly CVarDef<bool> PatronEnabled =
-        CVarDef.Create("support.patron_enabled", false, CVar.SERVER | CVar.REPLICATED);
+        CVarDef.Create("support.patron_enabled", true, CVar.SERVER | CVar.REPLICATED);
 }
