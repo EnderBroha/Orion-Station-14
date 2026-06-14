@@ -63,6 +63,10 @@
   requirements:
     - !type:OverallPlaytimeRequirement
       time: 3600 #1 hrs # Siberia-Roletime
+    - !type:SpeciesRequirement # Siberia - No Plasmaman in Service
+      inverted: true
+      species:
+      - Plasmaman
   startingGear: MusicianGear
   icon: "JobIconMusician"
   supervisors: job-supervisors-hire

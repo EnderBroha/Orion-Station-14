@@ -80,6 +80,11 @@
     - !type:DepartmentTimeRequirement
       department: Civilian
       time: 3600 #1 hrs # Siberia-RoleTime
+    - !type:SpeciesRequirement # Siberia - No small species in Cargo
+      inverted: true
+      species:
+      - Resomi
+      - Rodentia
   startingGear: CargoTechGear
   icon: "JobIconCargoTechnician"
   supervisors: job-supervisors-qm

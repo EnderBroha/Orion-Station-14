@@ -127,6 +127,10 @@
   requirements:
     - !type:OverallPlaytimeRequirement
       time: 54000 #15 hrs # Siberia-Roletime
+    - !type:SpeciesRequirement # Siberia - No Plasmaman in Service
+      inverted: true
+      species:
+      - Plasmaman
   startingGear: ClownGear
   icon: "JobIconClown"
   supervisors: job-supervisors-hop
