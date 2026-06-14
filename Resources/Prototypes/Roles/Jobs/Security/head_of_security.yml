@@ -151,12 +151,9 @@
     - !type:DepartmentTimeRequirement
       department: Security
       time: 72000 # 20 hrs # Siberia-Roletime
-    - !type:SpeciesRequirement # Siberia - No Yowie/Resomi/Diona in Command/Security
-      inverted: true
+    - !type:SpeciesRequirement # Siberia - Human only
       species:
-      - Yowie
-      - Resomi
-      - Diona
+      - Human
   #  - !type:StyleRequirement
   #    styles:
   #    - HumanHairFloorlengthBedhead
