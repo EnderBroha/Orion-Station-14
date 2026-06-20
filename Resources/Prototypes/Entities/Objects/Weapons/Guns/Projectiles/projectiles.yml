@@ -423,7 +423,7 @@
       fly-by: *flybyfixture
   - type: Ammo
   - type: StaminaDamageOnCollide
-    damage: 15 # Siberia edit
+    damage: 12 # Siberia edit
   - type: Projectile
     impactEffect: BulletImpactEffectDisabler
     damage:
@@ -1305,7 +1305,7 @@
       fly-by: *flybyfixture
   - type: Ammo
   - type: StaminaDamageOnCollide
-    damage: 11 # Siberia edit
+    damage: 8 # Siberia edit
   - type: Projectile
     impactEffect: BulletImpactEffectDisabler
     damage:
@@ -1364,7 +1364,7 @@
     impactEffect: BulletImpactEffectOrangeDisabler
     damage:
       types:
-        Heat: 40 # Siberia edit
+        Heat: 30 # Siberia edit
 
 - type: entity
   name : disabler bolt
@@ -1461,7 +1461,7 @@
     impactEffect: BulletImpactEffectOrangeDisabler
     damage:
       types:
-        Heat: 26 # Siberia edit
+        Heat: 20 # Siberia edit
 
 - type: entity
   name: wide laser barrage

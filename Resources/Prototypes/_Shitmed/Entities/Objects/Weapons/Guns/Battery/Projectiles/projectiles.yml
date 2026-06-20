@@ -49,7 +49,7 @@
     impactEffect: BulletImpactEffect
     damage:
       types:
-        Piercing: 28 # Siberia edit
+        Piercing: 21 # Siberia edit
     soundHit:
       path: /Audio/Weapons/Guns/Hits/bullet_hit.ogg
   - type: StaminaDamageOnCollide
@@ -71,7 +71,7 @@
   - type: Projectile
     damage:
       types:
-        Radiation: 40 # Siberia edit
+        Radiation: 30 # Siberia edit
     ignoreResistances: true
     soundHit:
       collection: MeatLaserImpact

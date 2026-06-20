@@ -13,7 +13,7 @@
   - type: Projectile
     damage:
       types:
-        Piercing: 24 # Siberia edit
+        Piercing: 18 # Siberia edit
       armorPenetration: 0.25 # It's "semi armor piercing" after all
   - type: StaminaDamageOnCollide
     damage: 8

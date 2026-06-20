@@ -11,7 +11,7 @@
   - type: Projectile
     damage:
       types:
-        Piercing: 80 # Siberia edit
+        Piercing: 60 # Siberia edit
         Structural: 120
       armorPenetration: 0.8
     penetrationThreshold: 50

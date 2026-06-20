@@ -11,10 +11,10 @@
   - type: Projectile
     damage:
       types:
-        Piercing: 48 # Siberia edit
+        Piercing: 36 # Siberia edit
       armorPenetration: 0.25
   - type: StaminaDamageOnCollide
-    damage: 16 # Siberia edit
+    damage: 6 # Siberia edit
 
 
 - type: entity
@@ -26,7 +26,7 @@
   - type: Projectile
     damage:
       types:
-        Blunt: 6
+        Blunt: 4
       armorPenetration: -0.5
 
 - type: entity
@@ -38,8 +38,8 @@
   - type: Projectile
     damage:
       types:
-        Blunt: 14 # Siberia edit
-        Heat: 16 # Siberia edit
+        Blunt: 10 # Siberia edit
+        Heat: 14 # Siberia edit
       armorPenetration: 0.2
   - type: StaminaDamageOnCollide
     damage: 10 # Siberia edit
@@ -54,8 +54,8 @@
   - type: Projectile
     damage:
       types:
-        Radiation: 14 # Siberia edit
-        Piercing: 26 # Siberia edit
+        Radiation: 10 # Siberia edit
+        Piercing: 20 # Siberia edit
       armorPenetration: 0.4
   - type: StaminaDamageOnCollide
     damage: 13 # Siberia edit

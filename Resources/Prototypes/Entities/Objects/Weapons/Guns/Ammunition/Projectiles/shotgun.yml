@@ -121,7 +121,7 @@
   - type: Projectile
     damage:
       types:
-        Piercing: 90 # Siberia edit
+        Piercing: 67 # Siberia edit
         Structural: 20 # Orion-Edit: 15 > 20
   - type: StaminaDamageOnCollide
     damage: 30 # Siberia edit
@@ -140,7 +140,7 @@
   - type: Projectile
     damage:
       types:
-        Blunt: 20 # Siberia edit
+        Blunt: 15 # Siberia edit
   - type: StaminaDamageOnCollide
     damage: 20 # Goob edit
 
@@ -156,8 +156,8 @@
   - type: Projectile
     damage:
       types:
-        Piercing: 20 # Siberia edit
-        Structural: 30 # Siberia edit
+        Piercing: 15 # Siberia edit
+        Structural: 22 # Siberia edit
       armorPenetration: -0.1 # Orion
   - type: StaminaDamageOnCollide
     damage: 8 # Siberia edit
@@ -186,8 +186,8 @@
   - type: Projectile
     damage:
       types:
-        Blunt: 8 # Siberia edit
-        Heat: 12 # Siberia edit
+        Blunt: 6 # Siberia edit
+        Heat: 9 # Siberia edit
       armorPenetration: -0.1 # Orion
   - type: IgnitionSource
     ignited: true
@@ -241,8 +241,8 @@
   - type: Projectile
     damage:
       types:
-        Piercing: 6 # Siberia edit
-        Slash: 6 # Siberia edit
+        Piercing: 5 # Siberia edit
+        Slash: 5 # Siberia edit
   - type: StaminaDamageOnCollide # Orion
     damage: 4 # Siberia edit
 
@@ -342,8 +342,8 @@
   - type: Projectile
     damage:
       types:
-        Radiation: 4 # Siberia edit
-        Piercing: 10 # Siberia edit
+        Radiation: 3 # Siberia edit
+        Piercing: 7 # Siberia edit
       armorPenetration: 0.15 # Orion
   - type: StaminaDamageOnCollide
     damage: 5 # Siberia edit
@@ -374,7 +374,7 @@
   - type: Projectile
     damage:
       types:
-        Piercing: 50 # Siberia edit
+        Piercing: 37 # Siberia edit
         Structural: 5
   - type: StaminaDamageOnCollide
     damage: 15 # Siberia edit
@@ -408,7 +408,7 @@
     deleteOnCollide: false
     damage:
       types:
-        Slash: 50 # Siberia edit
+        Slash: 37 # Siberia edit
   - type: StaminaDamageOnCollide
     damage: 15 # Siberia edit
 
