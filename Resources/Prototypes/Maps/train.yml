@@ -99,8 +99,8 @@
   mapPath: /Maps/_Goobstation/train.yml
   maxRandomOffset: 0
   randomRotation: false
-  minPlayers: 30
-  maxPlayers: 60
+  minPlayers: 15
+  maxPlayers: 30
   stations:
     Train:
       stationProto: StandardNanotrasenStation

@@ -94,8 +94,8 @@
   id: Loop
   mapName: 'Loop Station'
   mapPath: /Maps/_Goobstation/loop.yml
-  minPlayers: 35
-  maxPlayers: 70
+  minPlayers: 16
+  maxPlayers: 35
   stations:
     Loop:
       stationProto: StandardNanotrasenStation
