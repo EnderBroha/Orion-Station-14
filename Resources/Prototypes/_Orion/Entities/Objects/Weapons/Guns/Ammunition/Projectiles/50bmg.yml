@@ -16,4 +16,4 @@
       armorPenetration: 0.8
     penetrationThreshold: 50
   - type: StaminaDamageOnCollide
-    damage: 80 # Siberia edit
+    damage: 33 # Siberia edit

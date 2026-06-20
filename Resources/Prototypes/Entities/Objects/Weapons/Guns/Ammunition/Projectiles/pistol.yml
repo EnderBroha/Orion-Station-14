@@ -38,7 +38,7 @@
       types:
         Piercing: 32 # Siberia edit
   - type: StaminaDamageOnCollide
-    damage: 32 # Siberia edit
+    damage: 10 # Siberia edit
 
 
 - type: entity
@@ -64,7 +64,7 @@
         Blunt: 4 # Siberia edit
         Heat: 8  # Siberia edit
   - type: StaminaDamageOnCollide
-    damage: 12 # Siberia edit
+    damage: 4 # Siberia edit
 
 
 - type: entity
@@ -80,4 +80,4 @@
         Piercing: 16  # Siberia edit
       armorPenetration: 0.15 # Orion
   - type: StaminaDamageOnCollide
-    damage: 28 # Siberia edit
+    damage: 9 # Siberia edit

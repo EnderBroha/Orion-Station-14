@@ -14,7 +14,7 @@
         Piercing: 48 # Siberia edit
       armorPenetration: 0.25
   - type: StaminaDamageOnCollide
-    damage: 48 # Siberia edit
+    damage: 16 # Siberia edit
 
 
 - type: entity
@@ -42,7 +42,7 @@
         Heat: 16 # Siberia edit
       armorPenetration: 0.2
   - type: StaminaDamageOnCollide
-    damage: 30 # Siberia edit
+    damage: 10 # Siberia edit
 
 
 - type: entity
@@ -58,5 +58,5 @@
         Piercing: 26 # Siberia edit
       armorPenetration: 0.4
   - type: StaminaDamageOnCollide
-    damage: 40 # Siberia edit
+    damage: 13 # Siberia edit
 

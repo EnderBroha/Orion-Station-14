@@ -423,7 +423,7 @@
       fly-by: *flybyfixture
   - type: Ammo
   - type: StaminaDamageOnCollide
-    damage: 50 # Siberia edit
+    damage: 15 # Siberia edit
   - type: Projectile
     impactEffect: BulletImpactEffectDisabler
     damage:
@@ -1006,7 +1006,7 @@
     soundHit:
       path: /Audio/Effects/gen_hit.ogg
   - type: StaminaDamageOnCollide
-    damage: 80
+    damage: 26
     overtime: 50 # Goobstation
   - type: SmartLinkBlacklist  # Goobstation
 
@@ -1305,7 +1305,7 @@
       fly-by: *flybyfixture
   - type: Ammo
   - type: StaminaDamageOnCollide
-    damage: 32 # Siberia edit
+    damage: 11 # Siberia edit
   - type: Projectile
     impactEffect: BulletImpactEffectDisabler
     damage:
@@ -1380,7 +1380,7 @@
     - state: omnilaser
       shader: unshaded
   - type: StaminaDamageOnCollide
-    damage: 30
+    damage: 10
   - type: Projectile
     impactEffect: BulletImpactEffectDisabler
     damage:
@@ -1404,7 +1404,7 @@
     - state: tesla_projectile
       shader: unshaded
   - type: StaminaDamageOnCollide
-    damage: 15
+    damage: 5
   - type: EmbeddableProjectile
   - type: Projectile
     deleteOnCollide: false

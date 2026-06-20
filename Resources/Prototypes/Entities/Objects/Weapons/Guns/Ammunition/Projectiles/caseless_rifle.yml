@@ -38,7 +38,7 @@
         Piercing: 50 # Siberia edit
       armorPenetration: -0.3 # Goobstation
   - type: StaminaDamageOnCollide # Siberia edit
-    damage: 50
+    damage: 16
 
 - type: entity
   id: BulletCaselessRiflePractice

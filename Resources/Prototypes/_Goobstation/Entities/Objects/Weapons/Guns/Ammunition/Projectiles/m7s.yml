@@ -12,5 +12,5 @@
       types:
         Piercing: 22 # Siberia edit
   - type: StaminaDamageOnCollide
-    damage: 22 # Siberia edit
+    damage: 7 # Siberia edit
 

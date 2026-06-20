@@ -16,7 +16,7 @@
         Piercing: 24 # Siberia edit
       armorPenetration: 0.25 # It's "semi armor piercing" after all
   - type: StaminaDamageOnCollide
-    damage: 24
+    damage: 8
 
   - type: ExplodeOnTrigger
   - type: Explosive

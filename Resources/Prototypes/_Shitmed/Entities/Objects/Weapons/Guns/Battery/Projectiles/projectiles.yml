@@ -53,7 +53,7 @@
     soundHit:
       path: /Audio/Weapons/Guns/Hits/bullet_hit.ogg
   - type: StaminaDamageOnCollide
-    damage: 28 # Siberia edit
+    damage: 9 # Siberia edit
 
   - type: TimedDespawn
     lifetime: 10
@@ -76,5 +76,5 @@
     soundHit:
       collection: MeatLaserImpact
   - type: StaminaDamageOnCollide
-    damage: 40 # Siberia edit
+    damage: 13 # Siberia edit
 

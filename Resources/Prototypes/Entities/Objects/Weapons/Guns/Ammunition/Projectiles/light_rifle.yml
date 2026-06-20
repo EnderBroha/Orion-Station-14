@@ -43,7 +43,7 @@
         Piercing: 38 # Siberia edit
       armorPenetration: 0.2 # Goobstation # Orion-Edit: 0.4 > 0.2
   - type: StaminaDamageOnCollide
-    damage: 38 # Siberia edit
+    damage: 13 # Siberia edit
 
 - type: entity
   id: BulletLightRiflePractice
@@ -57,7 +57,7 @@
         Blunt: 10 # Siberia edit
       armorPenetration: -0.5 # Orion
   - type: StaminaDamageOnCollide # Siberia edit
-    damage: 10
+    damage: 3
 
 
 - type: entity
@@ -73,7 +73,7 @@
         Heat: 10 # Siberia edit
       armorPenetration: 0.10 # Orion
   - type: StaminaDamageOnCollide
-    damage: 18 # Siberia edit
+    damage: 9 # Siberia edit
 
 
 - type: entity
@@ -89,5 +89,5 @@
         Piercing: 22
       armorPenetration: 0.30 # Orion
   - type: StaminaDamageOnCollide
-    damage: 32 # Siberia edit
+    damage: 10 # Siberia edit
 

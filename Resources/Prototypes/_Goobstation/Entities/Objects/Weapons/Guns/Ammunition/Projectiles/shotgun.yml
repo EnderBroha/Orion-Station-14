@@ -28,7 +28,7 @@
         Piercing: 30 # Siberia edit
         Structural: 20
   - type: StaminaDamageOnCollide # Orion
-    damage: 30 # Siberia edit
+    damage: 10 # Siberia edit
 
 
 - type: entity

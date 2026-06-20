@@ -25,7 +25,7 @@
     soundHit:
       path: /Audio/Weapons/Guns/Hits/bullet_hit.ogg
   - type: StaminaDamageOnCollide
-    damage: 38 # Siberia edit
+    damage: 13 # Siberia edit
   - type: Tag
     tags:
       - PulseBullet
@@ -62,7 +62,7 @@
         Shock: 4 # Siberia edit
         Piercing: 4 # Siberia edit
   - type: StaminaDamageOnCollide
-    damage: 16 # Siberia edit
+    damage: 5 # Siberia edit
   - type: ProjectileSpread
     proto: PulseBulletSpreadShotgun
     count: 9
@@ -81,5 +81,5 @@
         Shock: 4 # Siberia edit
         Piercing: 4 # Siberia edit
   - type: StaminaDamageOnCollide
-    damage: 16 # Siberia edit
+    damage: 5 # Siberia edit
 

@@ -157,7 +157,7 @@
         Heat: 34 # Siberia edit
         Radiation: 4 # Siberia edit
   - type: StaminaDamageOnCollide
-    damage: 38 # Siberia edit
+    damage: 12 # Siberia edit
 
 
 - type: entity
@@ -197,7 +197,7 @@
   - type: IgniteOnCollide
     fireStacks: 2
   - type: StaminaDamageOnCollide
-    damage: 8 # Siberia edit
+    damage: 3 # Siberia edit
 
 
 - type: entity
@@ -278,5 +278,5 @@
         Structural: 100
     ignoreResistances: true # This needs ProjectileDamageWhitelistComponent
   - type: StaminaDamageOnCollide
-    damage: 8 # Siberia edit
+    damage: 3 # Siberia edit
 
