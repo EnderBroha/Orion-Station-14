@@ -145,12 +145,10 @@
       inverted: true
       traits:
       - Muted
-    - !type:SpeciesRequirement # Siberia - No Yowie/Resomi/Diona in Command
+    - !type:SpeciesRequirement # Siberia - No Vox
       inverted: true
       species:
-      - Yowie
-      - Resomi
-      - Diona
+      - Vox
   weight: 10
   startingGear: QuartermasterGear
   icon: "JobIconQuarterMaster"

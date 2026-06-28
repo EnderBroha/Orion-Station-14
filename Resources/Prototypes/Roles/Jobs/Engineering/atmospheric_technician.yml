@@ -68,10 +68,6 @@
   - !type:DepartmentTimeRequirement
     department: Engineering
     time: 36000 #10 hrs # Siberia-Roletime
-  - !type:SpeciesRequirement # Siberia - No Plasmaman in Atmos
-    inverted: true
-    species:
-    - Plasmaman
   startingGear: AtmosphericTechnicianGear
   icon: "JobIconAtmosphericTechnician"
   supervisors: job-supervisors-ce

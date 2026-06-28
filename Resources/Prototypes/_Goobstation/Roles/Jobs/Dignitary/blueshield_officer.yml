@@ -44,9 +44,19 @@
       time: 90000 # 25 hours
     - !type:AgeRequirement
       requiredAge: 21
-    - !type:SpeciesRequirement # Siberia - Human only
+    - !type:SpeciesRequirement # Siberia
       species:
       - Human
+      - Arachnid
+      - Vulpkanin
+      - SlimePerson
+      - Oni
+      - Reptilian
+      - Harpy
+      - Dwarf
+      - IPC
+      - Chitinid
+      - Feroxi
 #  guides: # Orion-Edit: Removed because dont have this SOP
 #  - BlueshieldOfficerSOP
 #  - Command

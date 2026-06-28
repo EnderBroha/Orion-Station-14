@@ -127,10 +127,10 @@
   requirements:
     - !type:OverallPlaytimeRequirement
       time: 54000 #15 hrs # Siberia-Roletime
-    - !type:SpeciesRequirement # Siberia - No Plasmaman in Service
+    - !type:SpeciesRequirement # Siberia - No Vox
       inverted: true
       species:
-      - Plasmaman
+      - Vox
   startingGear: ClownGear
   icon: "JobIconClown"
   supervisors: job-supervisors-hop

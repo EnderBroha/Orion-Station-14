@@ -158,9 +158,10 @@
       department: Civilian
       time: 180000 #50 hrs # Siberia-Roletime
       #any MRP using our code might eventually want to use it
-    - !type:SpeciesRequirement # Siberia - Human only
+    - !type:SpeciesRequirement # Siberia - No Vox
+      inverted: true
       species:
-      - Human
+      - Vox
     # - !type:SaturationRequirement # MisandryBox - no neon hair on captain
     #   hairColorSaturation: 0.30
 #  guides: # goobstation | Orion-Edit: Removed because dont have this SOP

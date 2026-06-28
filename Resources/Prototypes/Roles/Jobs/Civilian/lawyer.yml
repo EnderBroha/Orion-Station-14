@@ -73,10 +73,10 @@
   requirements:
     - !type:OverallPlaytimeRequirement
       time: 36000 #10 hrs # Siberia-Roletime
-    - !type:SpeciesRequirement # Siberia - No Plasmaman in Service
+    - !type:SpeciesRequirement # Siberia - No Vox
       inverted: true
       species:
-      - Plasmaman
+      - Vox
   startingGear: LawyerGear
   icon: "JobIconLawyer"
   supervisors: job-supervisors-hop

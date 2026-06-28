@@ -144,12 +144,20 @@
     - !type:DepartmentTimeRequirement
       department: Security
       time: 72000 #20 hrs # Siberia-Roletime
-    - !type:SpeciesRequirement # Siberia - No Yowie/Resomi/Diona in Security
-      inverted: true
+    - !type:SpeciesRequirement # Siberia
       species:
-      - Yowie
-      - Resomi
-      - Diona
+      - Human
+      - Arachnid
+      - Vulpkanin
+      - SlimePerson
+      - Oni
+      - Reptilian
+      - Harpy
+      - Dwarf
+      - IPC
+      - Feroxi
+      - Felinid
+      - Chitinid
   weight: 5
   startingGear: WardenGear
   icon: "JobIconWarden"

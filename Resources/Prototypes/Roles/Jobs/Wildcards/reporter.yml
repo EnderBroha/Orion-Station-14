@@ -58,6 +58,11 @@
   name: job-name-reporter
   description: job-description-reporter
   playTimeTracker: JobReporter
+  requirements:
+    - !type:SpeciesRequirement # Siberia - No Vox
+      inverted: true
+      species:
+      - Vox
   startingGear: ReporterGear
   icon: "JobIconReporter"
   goobcoins: 15 #Goob content

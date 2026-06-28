@@ -12,11 +12,14 @@
   - !type:DepartmentTimeRequirement
     department: Cargo
     time: 9000 # 2.5 hrs
-  - !type:SpeciesRequirement # Siberia - No Diona/Resomi in Mining
+  - !type:SpeciesRequirement # Siberia
     inverted: true
     species:
     - Diona
     - Resomi
+    - Plasmaman
+    - Rodentia
+    - Felinid
   icon: "JobIconShaftMiner" # Orion-Edit: Changed to JobIconShaftMiner
   startingGear: ShaftMinerGear
   guides:
