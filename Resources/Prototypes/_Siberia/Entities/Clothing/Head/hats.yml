@@ -149,8 +149,6 @@
 - type: entity
   parent: ClothingHeadHatArmored
   id: ClothingHeadHatSecurityCap
-  name: clothing-head-hat-security-cap
-  description: clothing-head-hat-security-cap-desc
   components:
   - type: Sprite
     sprite: Clothing/Head/Hats/securitycap.rsi
