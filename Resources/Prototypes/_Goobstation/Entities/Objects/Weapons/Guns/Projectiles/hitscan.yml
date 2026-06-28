@@ -9,7 +9,7 @@
   id: SMGLaser
   damage:
     types:
-      Heat: 25 # Siberia edit
+      Heat: 18 # Siberia edit
   muzzleFlash:
     sprite: _Goobstation/Objects/Weapons/Guns/Projectiles/small_laser.rsi
     state: muzzle_beam_light
@@ -24,7 +24,7 @@
   id: SMGLaserIon
   damage:
     types:
-      Ion: 34 # Siberia edit
+      Ion: 25 # Siberia edit
   muzzleFlash:
     sprite: _Goobstation/Objects/Weapons/Guns/Projectiles/small_laser.rsi
     state: muzzle_beam_light_ion
@@ -39,8 +39,8 @@
   id: SMGLaserXray
   damage:
     types:
-      Heat: 11 # Siberia edit
-      Radiation: 16 # Siberia edit
+      Heat: 8 # Siberia edit
+      Radiation: 13 # Siberia edit
   muzzleFlash:
     sprite: _Goobstation/Objects/Weapons/Guns/Projectiles/small_laser.rsi
     state: muzzle_beam_light_xray
@@ -56,7 +56,7 @@
   fireStacks: 0.4
   damage:
     types:
-      Heat: 34 # Siberia edit
+      Heat: 25 # Siberia edit
     armorPenetration: -0.2
   muzzleFlash:
     sprite: _Goobstation/Objects/Weapons/Guns/Projectiles/small_laser.rsi
@@ -72,7 +72,7 @@
   id: SMGLaserBluespace
   damage:
     types:
-      Heat: 24 # Siberia edit
+      Heat: 18 # Siberia edit
     armorPenetration: 0.4
   muzzleFlash:
     sprite: _Goobstation/Objects/Weapons/Guns/Projectiles/small_laser.rsi
@@ -88,7 +88,7 @@
   id: SMGLaserPulse
   damage:
     types:
-      Heat: 38 # Siberia edit
+      Heat: 28 # Siberia edit
     armorPenetration: 1
   muzzleFlash:
     sprite: _Goobstation/Objects/Weapons/Guns/Projectiles/small_laser.rsi
@@ -107,7 +107,7 @@
   id: SniperRedLaser
   damage:
     types:
-      Heat: 30 # Siberia edit
+      Heat: 22 # Siberia edit
   muzzleFlash:
     sprite: _Goobstation/Objects/Weapons/Guns/Projectiles/small_laser.rsi
     state: muzzle_beam_light
@@ -137,8 +137,8 @@
   id: SniperXrayLaser
   damage:
     types:
-      Heat: 15 # Siberia edit
-      Radiation: 15 # Siberia edit
+      Heat: 11 # Siberia edit
+      Radiation: 11 # Siberia edit
   muzzleFlash:
     sprite: _Goobstation/Objects/Weapons/Guns/Projectiles/small_laser.rsi
     state: muzzle_beam_light_xray
@@ -154,7 +154,7 @@
   fireStacks: 0.7
   damage:
     types:
-      Heat: 42 # Siberia edit
+      Heat: 30 # Siberia edit
     armorPenetration: -0.2
   muzzleFlash:
     sprite: _Goobstation/Objects/Weapons/Guns/Projectiles/small_laser.rsi
@@ -170,7 +170,7 @@
   id: SniperBluespaceLaser
   damage:
     types:
-      Heat: 28 # Siberia edit
+      Heat: 21 # Siberia edit
     armorPenetration: 0.4
   muzzleFlash:
     sprite: _Goobstation/Objects/Weapons/Guns/Projectiles/small_laser.rsi
@@ -186,7 +186,7 @@
   id: SniperPulseLaser
   damage:
     types:
-      Heat: 40 # Siberia edit
+      Heat: 30 # Siberia edit
     armorPenetration: 1
   muzzleFlash:
     sprite: _Goobstation/Objects/Weapons/Guns/Projectiles/small_laser.rsi
@@ -204,7 +204,7 @@
   id: LMGLaser
   damage:
     types:
-      Heat: 20 # Siberia edit
+      Heat: 15 # Siberia edit
   muzzleFlash:
     sprite: _Goobstation/Objects/Weapons/Guns/Projectiles/small_laser.rsi
     state: muzzle_beam_light
@@ -219,7 +219,7 @@
   id: LMGLaserBluespace
   damage:
     types:
-      Heat: 18 # Siberia edit
+      Heat: 13 # Siberia edit
     armorPenetration: 0.4
   muzzleFlash:
     sprite: _Goobstation/Objects/Weapons/Guns/Projectiles/small_laser.rsi
@@ -238,7 +238,7 @@
   id: RevolverRedLaser
   damage:
     types:
-      Heat: 26 # Siberia edit
+      Heat: 20 # Siberia edit
   muzzleFlash:
     sprite: _Goobstation/Objects/Weapons/Guns/Projectiles/small_laser.rsi
     state: muzzle_beam_light
@@ -253,7 +253,7 @@
   id: RevolverIonLaser
   damage:
     types:
-      Ion: 36 # Siberia edit
+      Ion: 27 # Siberia edit
   muzzleFlash:
     sprite: _Goobstation/Objects/Weapons/Guns/Projectiles/small_laser.rsi
     state: muzzle_beam_light_ion
@@ -268,8 +268,8 @@
   id: RevolverXrayLaser
   damage:
     types:
-      Heat: 12 # Siberia edit
-      Radiation: 12 # Siberia edit
+      Heat: 9 # Siberia edit
+      Radiation: 9 # Siberia edit
   muzzleFlash:
     sprite: _Goobstation/Objects/Weapons/Guns/Projectiles/small_laser.rsi
     state: muzzle_beam_light_xray
@@ -285,7 +285,7 @@
   fireStacks: 0.7
   damage:
     types:
-      Heat: 36 # Siberia edit
+      Heat: 27 # Siberia edit
     armorPenetration: -0.2
   muzzleFlash:
     sprite: _Goobstation/Objects/Weapons/Guns/Projectiles/small_laser.rsi
@@ -301,7 +301,7 @@
   id: RevolverBluespaceLaser
   damage:
     types:
-      Heat: 23 # Siberia edit
+      Heat: 17 # Siberia edit
     armorPenetration: 0.4
   muzzleFlash:
     sprite: _Goobstation/Objects/Weapons/Guns/Projectiles/small_laser.rsi
@@ -319,8 +319,8 @@
   id: HeavyRedLaser
   damage:
     types:
-      Heat: 34 # Siberia edit
-      Shock: 8 # Siberia edit
+      Heat: 25 # Siberia edit
+      Shock: 6 # Siberia edit
   muzzleFlash:
     sprite: Objects/Weapons/Guns/Projectiles/projectiles.rsi
     state: muzzle_beam_heavy
@@ -336,7 +336,7 @@
   fireStacks: 0.7
   damage:
     types:
-      Heat: 28 # Siberia edit
+      Heat: 21 # Siberia edit
   muzzleFlash:
     sprite: _Goobstation/Objects/Weapons/Guns/Projectiles/small_laser.rsi
     state: muzzle_beam_light_overcharged
@@ -351,7 +351,7 @@
   id: MediumRedLaser
   damage:
     types:
-      Heat: 20 # Siberia edit
+      Heat: 15 # Siberia edit
   muzzleFlash:
     sprite: _Goobstation/Objects/Weapons/Guns/Projectiles/small_laser.rsi
     state: muzzle_beam_light

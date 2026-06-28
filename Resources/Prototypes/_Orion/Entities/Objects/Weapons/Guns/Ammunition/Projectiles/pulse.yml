@@ -19,13 +19,13 @@
     impactEffect: BulletPulseEffect
     damage:
       types:
-        Heat: 16 # Siberia edit
-        Shock: 14 # Siberia edit
-        Piercing: 8 # Siberia edit
+        Heat: 12 # Siberia edit
+        Shock: 10 # Siberia edit
+        Piercing: 6 # Siberia edit
     soundHit:
       path: /Audio/Weapons/Guns/Hits/bullet_hit.ogg
   - type: StaminaDamageOnCollide
-    damage: 38 # Siberia edit
+    damage: 13 # Siberia edit
   - type: Tag
     tags:
       - PulseBullet
@@ -58,11 +58,11 @@
   - type: Projectile
     damage:
       types:
-        Heat: 8 # Siberia edit
-        Shock: 4 # Siberia edit
-        Piercing: 4 # Siberia edit
+        Heat: 6 # Siberia edit
+        Shock: 3 # Siberia edit
+        Piercing: 3 # Siberia edit
   - type: StaminaDamageOnCollide
-    damage: 16 # Siberia edit
+    damage: 5 # Siberia edit
   - type: ProjectileSpread
     proto: PulseBulletSpreadShotgun
     count: 9
@@ -77,9 +77,9 @@
   - type: Projectile
     damage:
       types:
-        Heat: 8 # Siberia edit
-        Shock: 4 # Siberia edit
-        Piercing: 4 # Siberia edit
+        Heat: 6 # Siberia edit
+        Shock: 3 # Siberia edit
+        Piercing: 3 # Siberia edit
   - type: StaminaDamageOnCollide
-    damage: 16 # Siberia edit
+    damage: 5 # Siberia edit
 
