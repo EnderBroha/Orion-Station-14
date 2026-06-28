@@ -104,6 +104,10 @@
       time: 180000  #50 hours
     - !type:AgeRequirement
       requiredAge: 21
+    - !type:SpeciesRequirement # Siberia - No Vox
+      inverted: true
+      species:
+      - Vox
   weight: 20
   startingGear: NanotrasenRepresentativeGear
   icon: "JobIconNanotrasenRepresentative"

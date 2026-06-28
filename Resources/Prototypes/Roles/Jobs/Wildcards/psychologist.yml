@@ -103,6 +103,20 @@
   name: job-name-psychologist
   description: job-description-psychologist
   playTimeTracker: JobPsychologist
+  requirements:
+    - !type:SpeciesRequirement # Siberia
+      inverted: true
+      species:
+      - Arachnid
+      - Oni
+      - Reptilian
+      - Diona
+      - Tajaran
+      - Harpy
+      - Rodentia
+      - Feroxi
+      - Chitinid
+      - Vox
   startingGear: PsychologistGear
   icon: "JobIconPsychologist"
   supervisors: job-supervisors-cmo

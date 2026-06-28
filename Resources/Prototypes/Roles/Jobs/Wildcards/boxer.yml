@@ -59,6 +59,12 @@
   name: job-name-boxer
   description: job-description-boxer
   playTimeTracker: JobBoxer
+  requirements:
+    - !type:SpeciesRequirement # Siberia
+      inverted: true
+      species:
+      - Vox
+      - Diona
   startingGear: BoxerGear
   icon: "JobIconBoxer"
   supervisors: job-supervisors-hop

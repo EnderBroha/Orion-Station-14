@@ -72,6 +72,12 @@
   - !type:RoleTimeRequirement
     role: JobSecurityOfficer
     time: 18000 #5 hrs
+  - !type:SpeciesRequirement # Siberia - No Yowie/Resomi/Diona in Security
+    inverted: true
+    species:
+    - Yowie
+    - Resomi
+    - Diona
   startingGear: DetectiveGear
   icon: "JobIconDetective"
   supervisors: job-supervisors-hos

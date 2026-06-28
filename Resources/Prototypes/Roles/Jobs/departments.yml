@@ -171,6 +171,7 @@
   - NavyCaptain
   - NavyOfficerUndercover
   - SpecialOperationsOfficer
+  - Detective # Siberia - moved from Security
   - Diplomat
   - GovernmentMan # Goobstation - End
 #  editorHidden: true # Orion-Edit: true > false
@@ -258,7 +259,6 @@
   - HeadOfSecurity
   - SecurityCadet
   - SecurityOfficer
-  - Detective
   - Warden
   - Brigmedic # Goob
   - SecurityClown # event-restricted, Goob

@@ -145,6 +145,10 @@
       time: 54000 #15 hrs # Siberia-Roletime
     - !type:OverallPlaytimeRequirement
       time: 72000 #20 hrs # Siberia-Roletime
+    - !type:SpeciesRequirement # Siberia - No Vox
+      inverted: true
+      species:
+      - Vox
   weight: 10
   startingGear: ChiefEngineerGear
   icon: "JobIconChiefEngineer"

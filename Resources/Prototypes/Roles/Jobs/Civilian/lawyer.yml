@@ -73,6 +73,10 @@
   requirements:
     - !type:OverallPlaytimeRequirement
       time: 36000 #10 hrs # Siberia-Roletime
+    - !type:SpeciesRequirement # Siberia - No Vox
+      inverted: true
+      species:
+      - Vox
   startingGear: LawyerGear
   icon: "JobIconLawyer"
   supervisors: job-supervisors-hop

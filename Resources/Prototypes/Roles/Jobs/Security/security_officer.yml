@@ -92,6 +92,20 @@
     - !type:DepartmentTimeRequirement
       department: Security
       time: 18000 #5 hrs # Siberia-Roletime
+    - !type:SpeciesRequirement # Siberia
+      species:
+      - Human
+      - Arachnid
+      - Vulpkanin
+      - SlimePerson
+      - Oni
+      - Reptilian
+      - Harpy
+      - Dwarf
+      - IPC
+      - Feroxi
+      - Felinid
+      - Chitinid
   startingGear: SecurityOfficerGear
   icon: "JobIconSecurityOfficer"
   supervisors: job-supervisors-hos

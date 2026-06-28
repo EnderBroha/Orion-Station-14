@@ -145,6 +145,10 @@
       inverted: true
       traits:
       - Muted
+    - !type:SpeciesRequirement # Siberia - No Vox
+      inverted: true
+      species:
+      - Vox
   weight: 10
   startingGear: QuartermasterGear
   icon: "JobIconQuarterMaster"

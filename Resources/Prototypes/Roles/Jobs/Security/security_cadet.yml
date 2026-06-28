@@ -102,6 +102,20 @@
   requirements:
     - !type:OverallPlaytimeRequirement
       time: 18000 #5 hrs # Siberia-Roletime
+    - !type:SpeciesRequirement # Siberia
+      species:
+      - Human
+      - Arachnid
+      - Vulpkanin
+      - SlimePerson
+      - Oni
+      - Reptilian
+      - Harpy
+      - Dwarf
+      - IPC
+      - Feroxi
+      - Felinid
+      - Chitinid
   startingGear: SecurityCadetGear
   icon: "JobIconSecurityCadet"
   supervisors: job-supervisors-security

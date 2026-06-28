@@ -85,6 +85,11 @@
   requirements:
     - !type:OverallPlaytimeRequirement
       time: 3600 #1 hrs # Siberia-Roletime
+    - !type:SpeciesRequirement # Siberia
+      inverted: true
+      species:
+      - Vox
+      - Diona
   startingGear: ChefGear
   icon: "JobIconChef"
   supervisors: job-supervisors-hop

@@ -79,6 +79,14 @@
       time: 7200 # 2 hrs # Siberia-Roletime
     - !type:OverallPlaytimeRequirement
       time: 18000 #5 hrs # Siberia-Roletime
+    - !type:SpeciesRequirement # Siberia
+      inverted: true
+      species:
+      - Diona
+      - Resomi
+      - Plasmaman
+      - Rodentia
+      - Felinid
   icon: "JobIconSalvageSpecialist" # Orion-Edit: Unique Salvager icon
   startingGear: SalvageSpecialistGear
 #  guides: # goobstation | Orion-Edit: Removed because dont have this SOP

@@ -142,6 +142,10 @@
     time: 36000 #10 hrs
   - !type:OverallPlaytimeRequirement
     time: 72000 #20 hrs # Siberia-Roletime
+  - !type:SpeciesRequirement # Siberia - No Vox
+    inverted: true
+    species:
+    - Vox
   weight: 10
   startingGear: ResearchDirectorGear
   icon: "JobIconResearchDirector"

@@ -44,10 +44,19 @@
       time: 90000 # 25 hours
     - !type:AgeRequirement
       requiredAge: 21
-    - !type:SpeciesRequirement # Goob - None Felinid
-      inverted: true
+    - !type:SpeciesRequirement # Siberia
       species:
-      - Felinid
+      - Human
+      - Arachnid
+      - Vulpkanin
+      - SlimePerson
+      - Oni
+      - Reptilian
+      - Harpy
+      - Dwarf
+      - IPC
+      - Chitinid
+      - Feroxi
 #  guides: # Orion-Edit: Removed because dont have this SOP
 #  - BlueshieldOfficerSOP
 #  - Command
