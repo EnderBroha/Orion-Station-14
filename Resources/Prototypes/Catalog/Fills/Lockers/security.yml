@@ -162,6 +162,7 @@
     - id: ClothingUniformJumpsuitSecGrey
       prob: 0.3
     - id: ClothingHeadHelmetBasic
+    - id: ClothingHeadHatSecurityCap # Siberia
     - id: ClothingOuterArmorBasic
     #- id: ClothingBeltSecurityFilled Goob, see GroupSelector below
     - id: Flash

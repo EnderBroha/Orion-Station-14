@@ -147,6 +147,23 @@
     sprite: _Siberia/Clothing/Head/Hats/whiteberet.rsi
 
 - type: entity
+  parent: ClothingHeadHatArmored
+  id: ClothingHeadHatSecurityCap
+  name: clothing-head-hat-security-cap
+  description: clothing-head-hat-security-cap-desc
+  components:
+  - type: Sprite
+    sprite: Clothing/Head/Hats/securitycap.rsi
+  - type: Clothing
+    sprite: Clothing/Head/Hats/securitycap.rsi
+  - type: Item
+    sprite: Clothing/Head/Hats/securitycap.rsi
+  - type: Tag
+    tags:
+    - HamsterWearable
+    - WhitelistChameleon
+
+- type: entity
   parent: ClothingHeadBaseButcherable
   id: ClothingHeadhatBandYellow
   name: жёлтый ободок

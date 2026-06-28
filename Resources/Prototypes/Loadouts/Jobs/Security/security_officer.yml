@@ -116,6 +116,11 @@
         time: 360000 #100 hrs
 
 # Head
+- type: loadout # Siberia
+  id: SecurityCap
+  equipment:
+    head: ClothingHeadHatSecurityCap
+
 - type: loadout
   id: SecurityHelmet
   equipment:
