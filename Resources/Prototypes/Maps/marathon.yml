@@ -37,8 +37,8 @@
   id: Marathon
   mapName: 'Marathon Station'
   mapPath: /Maps/_Goobstation/marathon.yml # Goobstation
-  minPlayers: 35
-  maxPlayers: 70
+  minPlayers: 22
+  maxPlayers: 45
   stations:
     Marathon:
       stationProto: StandardNanotrasenStation

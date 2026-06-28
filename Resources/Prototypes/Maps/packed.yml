@@ -35,8 +35,8 @@
   id: Packed
   mapName: 'Packed'
   mapPath: /Maps/_Goobstation/packed.yml # Goobstation
-  minPlayers: 7
-  maxPlayers: 35
+  minPlayers: 2
+  maxPlayers: 22
   stations:
     Packed:
       stationProto: StandardNanotrasenStation

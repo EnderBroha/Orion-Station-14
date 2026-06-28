@@ -88,8 +88,8 @@
   id: Meta
   mapName: 'Meta Station'
   mapPath: /Maps/_Goobstation/meta.yml # Goobstation
-  minPlayers: 30 # Goobstation return minPlayers requirement for maps
-  maxPlayers: 85 # Goobstation - Limit mappool to highpop versions of maps only
+  minPlayers: 15 # Goobstation return minPlayers requirement for maps
+  maxPlayers: 44 # Goobstation - Limit mappool to highpop versions of maps only
   stations:
     Meta:
       stationProto: StandardNanotrasenStation
