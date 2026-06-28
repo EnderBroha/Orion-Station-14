@@ -1367,6 +1367,7 @@
   - SecurityHat
   - TrooperHat
   - SecuritySideCap # Orion
+  - SecurityCap # Siberia
 
 - type: loadoutGroup
   id: SecurityJumpsuit
