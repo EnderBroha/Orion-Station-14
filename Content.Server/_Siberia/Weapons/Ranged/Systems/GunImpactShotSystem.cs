@@ -1,3 +1,7 @@
+// SPDX-FileCopyrightText: 2026 Space Station 14 Contributors
+//
+// SPDX-License-Identifier: AGPL-3.0-or-later
+
 using Content.Server._Siberia.Weapons.Ranged.Components;
 using Content.Server.Administration.Logs;
 using Content.Server.Weapons.Ranged.Systems;
