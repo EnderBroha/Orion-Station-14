@@ -76,6 +76,7 @@
   description: A rooty tooty point and shooty.
   abstract: true
   components:
+  - type: GunImpactShot # Siberia
   - type: Sprite
     layers:
     - state: icon
