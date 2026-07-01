@@ -1,0 +1,14 @@
+{
+    "version": 1,
+    "license": "CC-BY-SA-4.0",
+    "copyright": "PLACEHOLDER art copied from _Orion general.rsi (bar) - replace sol_badman.png with original artwork before release",
+    "size": {
+        "x": 32,
+        "y": 32
+    },
+    "states": [
+        {
+            "name": "sol_badman"
+        }
+    ]
+}

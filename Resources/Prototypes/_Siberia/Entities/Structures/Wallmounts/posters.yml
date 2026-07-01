@@ -1,0 +1,16 @@
+# SPDX-FileCopyrightText: 2026 Space Station 14 Contributors
+#
+# SPDX-License-Identifier: AGPL-3.0-or-later
+
+- type: entity
+  parent: PosterBase
+  id: PosterContrabandSolBadman
+  name: Лучше звоните Солу
+  description: |-
+    Уволили без причины? Отжали должность? Поймали с поличным?
+    Лучше звоните Солу Бэдмэну! Вернём ваше место и выбьем компенсацию!
+    *Оплата в кредитах вперёд. Сол Бэдмэн не несёт ответственности за исход дела.
+  components:
+  - type: Sprite
+    sprite: _Siberia/Structures/Wallmounts/Posters/legal.rsi
+    state: sol_badman
