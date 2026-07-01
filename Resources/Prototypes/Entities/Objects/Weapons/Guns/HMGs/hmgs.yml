@@ -95,6 +95,7 @@
   description: Spray and pray.
   abstract: true
   components:
+  - type: GunImpactShot # Siberia
   - type: Sprite
   - type: Item
     size: Ginormous

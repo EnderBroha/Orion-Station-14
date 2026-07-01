@@ -149,6 +149,7 @@
   parent: BaseItem
   abstract: true
   components:
+  - type: GunImpactShot # Siberia
   - type: Sprite
   - type: Item
     size: Huge
@@ -209,6 +210,7 @@
   parent: BaseItem
   abstract: true
   components:
+  - type: GunImpactShot # Siberia
   - type: Sprite
   - type: Item
     size: Huge

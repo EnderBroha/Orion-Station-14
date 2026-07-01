@@ -201,7 +201,9 @@ namespace Content.IntegrationTests.Tests
         {
             // This test dirties the pair as it simply deletes ALL entities when done. Overhead of restarting the round
             // is minimal relative to the rest of the test.
-            var settings = new PoolSettings { Dirty = true };
+            // Orion - pin the RNG seed so same-tile explosions/random timers behave deterministically
+            // instead of intermittently tripping the error-log failure check in CI.
+            var settings = new PoolSettings { Dirty = true, ServerSeed = 1 };
             await using var pair = await PoolManager.GetServerClient(settings);
             var server = pair.Server;
             var map = await pair.CreateTestMap();
