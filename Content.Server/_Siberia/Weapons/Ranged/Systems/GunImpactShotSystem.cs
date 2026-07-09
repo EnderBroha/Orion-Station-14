@@ -96,6 +96,13 @@ public sealed class GunImpactShotSystem : EntitySystem
         var xform = Transform(gun);
         var coordinates = xform.Coordinates;
 
+        // If the gun isn't on a map (nullspace: e.g. held by a mob that is in
+        // nullspace, mid-teleport, or inside a nullspace container), there is
+        // nowhere to fire into and spawning the projectile on invalid
+        // coordinates would throw. Silently skip the accidental discharge.
+        if (xform.MapUid == null)
+            return false;
+
         var takeAmmo = new TakeAmmoEvent(1,
             new List<(EntityUid? Entity, IShootable Shootable)>(),
             coordinates,
